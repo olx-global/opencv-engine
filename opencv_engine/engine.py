@@ -8,10 +8,7 @@
 # http://www.opensource.org/licenses/mit-license
 # Copyright (c) 2014 globo.com timehome@corp.globo.com
 
-try:
-    import cv
-except ImportError:
-    import cv2.cv as cv
+import cv
 
 from colour import Color
 
